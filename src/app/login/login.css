@@ -1,70 +1,71 @@
-.normal{
-    color: #AFB29E;
-    font-size: 20px;
+.normal {
+  color: #afb29e;
+  font-size: 20px;
 }
 
-.heading{
-    color:#F1F2FF;
-    font-size: 35px;
-    font-weight:500;
+.heading {
+  color: #f1f2ff;
+  font-size: 35px;
+  font-weight: 500;
 }
-.heading1{
-    color:#F1F2FF;
-    font-size: 20px;
+.heading1 {
+  color: #f1f2ff;
+  font-size: 20px;
 }
-input[type="text"], textarea {
-    color: #F1F2FF;
-    background-color : #161D29; 
-    border-radius: 5px;
-    width: 100%;
-    height: 40px;
-    font-size: 20px;
-    padding-left: 10px;
-    border: 1px solid black;
+input[type="text"],
+textarea {
+  color: #f1f2ff;
+  background-color: #161d29;
+  border-radius: 5px;
+  width: 100%;
+  height: 40px;
+  font-size: 20px;
+  padding-left: 10px;
+  border: 1px solid black;
 }
-input[type="password"], textarea {
-    color: #F1F2FF;
-    background-color : #161D29; 
-    border-radius: 5px;
-    width: 100%;
-    border: 1px solid black;
-    height: 40px;
-    font-size: 20px;
-    padding-left: 10px;
+input[type="password"],
+textarea {
+  color: #f1f2ff;
+  background-color: #161d29;
+  border-radius: 5px;
+  width: 100%;
+  border: 1px solid black;
+  height: 40px;
+  font-size: 20px;
+  padding-left: 10px;
 }
-.iname1{
-    display: flex;
-    flex-direction: column;
-    gap:10px ;
+.iname1 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 .heading1::after {
-    content: "*";
-    font-size: 15px;
-    color: red;
-    margin-left:2px;
-  }
-  .rightlogin
-  {
-      width: 35%;
-  }
-  .logincontainer{
-    display: flex;
-    /* flex-direction: column; */
-    justify-content: space-around;
-    align-items: center;
-    /* height: 100vh; */
+  content: "*";
+  font-size: 15px;
+  color: red;
+  margin-left: 2px;
 }
-.leftlogin{
-    width: 40%;
-    display: flex;
-    flex-direction: column;
-    /* align-items: center; */
-    gap: 30px;
+.rightlogin {
+  width: 35%;
 }
-.forgotpass{
-    /* display: inline !important;  */
-    display: flex;
-    justify-content: flex-end;
-    position: relative;
-    bottom: 20px;
+.logincontainer {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: space-around;
+  align-items: center;
+  /* height: 100vh; */
+}
+.leftlogin {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  gap: 30px;
+}
+.forgotpass {
+  /* display: inline !important;  */
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  bottom: 20px;
 }

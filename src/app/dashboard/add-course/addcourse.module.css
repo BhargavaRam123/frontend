@@ -1,0 +1,169 @@
+.scontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #000c23;
+  padding-top: 50px;
+  border: 1px solid rgb(144, 141, 141);
+  gap: 20px;
+  border-top: 0px;
+  border-left: 0;
+  position: fixed;
+  left: 0px;
+  height: 82vh;
+  width: 250px;
+}
+.normal {
+  color: white;
+  font-size: 20px;
+}
+
+.innerscontainer {
+  width: 200px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 30px;
+  width: 100%;
+  margin-left: 100px;
+  /* background-color: red; */
+}
+
+.infocontainer {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.heading {
+  color: #f1f2ff;
+  font-size: 35px;
+  font-weight: 500;
+}
+.subcontainer {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.iname {
+  color: white;
+  font-size: 20px;
+}
+.round {
+  color: white;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  border: 1px solid white;
+}
+.sround {
+  color: rgb(255, 207, 14);
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  background-color: rgb(37, 21, 1);
+  border: 1px solid rgb(255, 207, 14);
+}
+
+.line {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.iline {
+  width: 150px;
+  height: 1px;
+  border: 1px dashed grey;
+}
+
+.inputformc {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid white;
+  gap: 10px;
+}
+
+.heading1 {
+  color: #f1f2ff;
+  font-size: 20px;
+}
+.heading1::after {
+  content: "*";
+  font-size: 15px;
+  color: red;
+  margin-left: 2px;
+}
+.inputformc textarea {
+  color: #f1f2ff;
+  background-color: #161d29;
+  border-radius: 5px;
+  font-size: 20px;
+  padding-left: 10px;
+  resize: none;
+  border: 1px solid black;
+  width: 80% !important;
+  height: 220px;
+}
+.inputformc input[type="text"] {
+  color: #f1f2ff;
+  background-color: #161d29;
+  border-radius: 5px;
+  font-size: 20px;
+  padding-left: 10px;
+  resize: none;
+  border: 1px solid black;
+  height: 30px;
+  width: 80%;
+}
+.inputformc select {
+  color: #f1f2ff;
+  background-color: #161d29;
+  border-radius: 5px;
+  font-size: 20px;
+  padding-left: 10px;
+  resize: none;
+  border: 1px solid black;
+  height: 30px;
+  width: 80%;
+}
+
+.inner {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.ucontainer {
+  width: 80%;
+  height: 220px;
+  background-color: #161d29;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border: 2px dashed grey;
+  border-radius: 5px;
+}
