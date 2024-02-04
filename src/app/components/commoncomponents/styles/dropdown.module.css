@@ -1,0 +1,44 @@
+.profileicon {
+  position: relative;
+  border: 1px solid #000c23;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  overflow: hidden;
+}
+
+.dcontainer {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.normal {
+  color: #afb3be;
+  font-size: 15px;
+}
+
+.heading {
+  color: #f1f2ff;
+  font-size: 35px;
+  font-weight: 500;
+}
+.heading1 {
+  color: #f1f2ff;
+  font-size: 20px;
+}
+.dropdown {
+  position: absolute;
+  border-radius: 7px;
+  width: 100px;
+  height: 70px;
+  top: 35px;
+  left: -10px;
+  border: 1px solid #2d323f;
+  background-color: #2d323f;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-left: 10px;
+  gap: 5px;
+}

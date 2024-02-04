@@ -1,0 +1,50 @@
+.scontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #000c23;
+  padding-top: 50px;
+  border: 1px solid rgb(144, 141, 141);
+  gap: 20px;
+  border-top: 0px;
+  border-left: 0;
+  position: fixed;
+  left: 0px;
+  height: 82vh;
+  width: 250px;
+}
+.normal {
+  color: white;
+  font-size: 20px;
+}
+
+.innerscontainer {
+  width: 200px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 30px;
+  width: 100%;
+  margin-left: 100px;
+  /* background-color: red; */
+}
+
+.infocontainer {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.heading {
+  color: #f1f2ff;
+  font-size: 35px;
+  font-weight: 500;
+}

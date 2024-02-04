@@ -1,0 +1,9 @@
+.resend{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.otpinput{
+    width: 100%;
+    color:blue;
+}
