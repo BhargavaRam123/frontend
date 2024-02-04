@@ -13,6 +13,7 @@ export default function Sidebar(props) {
   const Icon = Icons[props.icon];
   console.log(user);
   if (user[0].accountType !== props.type) return null;
+
   return (
     <div>
       <div

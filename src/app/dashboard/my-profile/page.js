@@ -23,7 +23,7 @@ export default function Profile() {
     <>
       <div className={style.scontainer}>
         {sidebarLinks.map((obj) => {
-          console.log("helleo");
+          // console.log("helleo");
           return (
             <Sidebar
               key={obj.id}
