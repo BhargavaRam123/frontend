@@ -8,9 +8,10 @@ import { IoLogOutOutline } from "react-icons/io5";
 import { useSelector } from "react-redux";
 import Statusbar from "./components/statusbar";
 import Inputform from "./components/inputform";
+import Recommendation from "./components/recommendation";
 export default function Addcourse() {
   return (
-    <div>
+    <div style={{ display: "flex" }}>
       <div className={style.scontainer}>
         {sidebarLinks.map((obj) => {
           console.log("helleo");
@@ -67,6 +68,7 @@ export default function Addcourse() {
           <Inputform />
         </div>
       </div>
+      <Recommendation />
     </div>
   );
 }

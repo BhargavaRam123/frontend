@@ -1,9 +1,10 @@
 "use client";
 import { createSlice } from "@reduxjs/toolkit";
 const initialState = {
-  coursecreationstage: localStorage.getItem("stage")
-    ? JSON.parse(localStorage.getItem("stage"))
-    : 1,
+  coursecreationstage: 1,
+  course: null,
+  editCourse: false,
+  paymentLoading: false,
 };
 const addcourseslice = createSlice({
   name: "coursestage",
@@ -11,11 +12,29 @@ const addcourseslice = createSlice({
   reducers: {
     setcoursecreationstage(state, value) {
       state.coursecreationstage = value.payload;
-      let stageinfo = JSON.stringify(state.coursecreationstage);
-      localStorage.setItem("stage", stageinfo);
+    },
+    setCourse: (state, action) => {
+      state.course = action.payload;
+    },
+    setEditCourse: (state, action) => {
+      state.editCourse = action.payload;
+    },
+    setPaymentLoading: (state, action) => {
+      state.paymentLoading = action.payload;
+    },
+    resetCourseState: (state) => {
+      state.step = 1;
+      state.course = null;
+      state.editCourse = false;
     },
   },
 });
 
-export const { setcoursecreationstage } = addcourseslice.actions;
+export const {
+  setcoursecreationstage,
+  setCourse,
+  setEditCourse,
+  setPaymentLoading,
+  resetCourseState,
+} = addcourseslice.actions;
 export default addcourseslice.reducer;

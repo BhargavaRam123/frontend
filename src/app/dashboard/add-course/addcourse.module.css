@@ -30,8 +30,9 @@
   flex-direction: row;
   justify-content: center;
   gap: 30px;
-  width: 100%;
-  margin-left: 100px;
+  width: 20% !important;
+  margin-left: 38%;
+
   /* background-color: red; */
 }
 
@@ -101,8 +102,11 @@
 .inputformc {
   display: flex;
   flex-direction: column;
+  padding-left: 50px;
   border: 1px solid white;
-  gap: 10px;
+  border-radius: 2px;
+  width: 460px;
+  gap: 30px;
 }
 
 .heading1 {
@@ -125,6 +129,7 @@
   border: 1px solid black;
   width: 80% !important;
   height: 220px;
+  outline: none;
 }
 .inputformc input[type="text"] {
   color: #f1f2ff;
@@ -135,6 +140,7 @@
   resize: none;
   border: 1px solid black;
   height: 30px;
+  outline: none;
   width: 80%;
 }
 .inputformc select {
@@ -147,12 +153,13 @@
   border: 1px solid black;
   height: 30px;
   width: 80%;
+  outline: none;
 }
 
 .inner {
   display: flex;
   flex-direction: column;
-  gap: 5px;
+  gap: 15px;
 }
 
 .ucontainer {
@@ -166,4 +173,30 @@
   align-items: center;
   border: 2px dashed grey;
   border-radius: 5px;
+}
+
+.btnstyle {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: yellow;
+  border: 1px solid yellow;
+  border-radius: 5px;
+  height: 35px;
+  width: 80px;
+  transform: translateX(455px);
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.rcontainer {
+  display: flex;
+  flex-direction: column;
+  color: #f1f2ff;
+  border: 1px solid white;
+  height: fit-content;
+  width: 400px;
+  line-height: 1.8;
+  margin-left: 100px;
+  margin-top: 180px;
 }
